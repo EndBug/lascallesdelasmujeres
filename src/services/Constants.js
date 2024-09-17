@@ -539,6 +539,22 @@ export const countriesList = [
         },
         center: [10.21185, 45.5416],
       },
+      {
+        id: 'milano',
+        name: 'Milano',
+        center: [9.18168, 45.46885],
+        datos: {
+          numLink: 131,
+          pcLink: '74.9',
+          numNoLink: 44,
+          pcNoLink: '25.1',
+          numFemale: 175,
+          pcFemale: '6.5',
+          numMale: 2527,
+          pcMale: '93.5',
+          totalNames: 2702,
+        },
+      },
     ],
   },
 
