@@ -26,7 +26,7 @@ export default class GeojsonMapService {
   }
 
   static getHTMLWikipediaLink(link, popupText) {
-    if (link !== '') {
+    if (link) {
       return `<p class=""><a  class="btn btn-light" target="_blank" href='${link}'><i class="fab fa-wikipedia-w"></i></a></p>`;
     }
 
